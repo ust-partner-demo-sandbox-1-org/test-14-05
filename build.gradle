@@ -1,1 +1,11 @@
-this is invalid gradle
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.fakecompany:this-does-not-exist:99.99.99'
+}
